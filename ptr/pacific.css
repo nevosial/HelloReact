@@ -1,0 +1,147 @@
+h1
+{
+	line-height: 100%;
+	color: white;
+	background: url("sunset.jpg") no-repeat;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: #000033;
+	padding: 10px;
+	margin-bottom:0px;
+}
+h2
+{
+	/* margin-left: 180px; */
+	color: #3399CC;
+	font-family: Georgia, serif;
+}
+
+nav{
+	background-color: #90C7E3;
+	padding: 20px 5px 5px 20px;
+	font-weight: bold;
+	float: left;
+	/* height: 100px; */
+	width: 160px;
+}
+nav ul{
+	list-style-type: none;
+	height: 100%;
+    /* padding: 0; */
+}
+body
+{
+	color: #666666;
+	margin-left: 20px;
+	background-color: #FFFFFF
+	font-family: "Arial";
+}
+footer
+{
+	font-size: .70em;
+	color: #666666;
+	text-align: center;
+	font-style: italic;
+}
+tel
+{
+	margin-left: 20px;
+	font-size: 13px;
+	font-family: "Arial"
+	color: #666666;
+}
+address
+{
+	font-style:normal;
+}
+a
+{
+	text-decoration: underline;
+}
+
+/*
+For responsive images
+img {
+    width: 100%;
+    height: auto;
+}
+*/
+
+/*class used for questions*/
+.questions{
+    font-size: 20px;
+    font-style:bold;
+    font-weight:bold;
+	font-family: "Arial";
+}
+
+/*class used for alignment of tables*/
+.tablealign{
+    margin-left: 30px;
+}
+
+#alignevencol{
+	text-align: center;
+}
+
+/*class used for alignment of answers*/
+#answers{
+    margin-left: 30px;
+}
+#packages{
+    font-size: 30px;
+    color: #3399CC;
+    font-style:bold;
+	font-family: Georgia, serif;
+}
+#para1
+{
+    margin-left: 180px;
+}
+#para2
+{
+	margin-left: 180px;
+	font-weight:bold;
+}
+#wrapper
+{
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+#para3
+{
+	margin-left: 180px;
+}
+
+
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+	.row.content {height: 900px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #90C7E3;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      /* background-color: #555;
+      color: white;
+      padding: 15px; */
+      font-size: .90em;
+      color: #666666;
+      text-align: center;
+      font-style: italic;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+
